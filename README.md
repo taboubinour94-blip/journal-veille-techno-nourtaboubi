@@ -36,10 +36,10 @@
 - J'ai appris qu'il faut vérifier les informations importantes.
 
 ### Difficultés rencontrées
-- [Décrire les difficultés rencontrées et comment elles ont été résolues.]
+- 
 
 ---
 
 ## Ressources et prompts utilisés
-- [Ajouter les liens des ressources consultées, si nécessaire.]
-- [Copier les prompts et les réponses obtenues lorsque le TP le demande.]
+- J'ai utilisé comme ressources chatgbt et gemini 
+
