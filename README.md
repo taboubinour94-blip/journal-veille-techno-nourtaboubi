@@ -26,10 +26,14 @@
 ## Semaine 2 — [09 oct 2026]
 
 ### Ce que j'ai fait
-- [Décrire les activités réalisées pendant le TP.]
+- Test et amélioration progressive d'un prompt.
+- Comparaison des réponses obtenues avec plusieurs formulations.
+
 
 ### Ce que j'ai appris
-- [Décrire les nouvelles connaissances acquises.]
+- J'ai appris à analyser une réponse et à identifier ses points forts et ses limites.
+- J'ai compris que l'auto-critique de l'IA ne garantit pas que sa réponse soit correcte.
+- J'ai appris qu'il faut vérifier les informations importantes.
 
 ### Difficultés rencontrées
 - [Décrire les difficultés rencontrées et comment elles ont été résolues.]
