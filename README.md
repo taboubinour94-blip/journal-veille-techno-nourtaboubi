@@ -23,7 +23,7 @@
 
 ---
 
-## Semaine 2 — [09 oct 2026]
+## Semaine 3 — [23 oct 2026]
 
 ### Ce que j'ai fait
 - Test et amélioration progressive d'un prompt.
@@ -36,10 +36,22 @@
 - J'ai appris qu'il faut vérifier les informations importantes.
 
 ### Difficultés rencontrées
-- 
+---
+
+### Ce que j'ai fait
+- on a tester l' ia avec des prompts .
+
+### Ce que j'ai appris
+- j'ai appris que l'ia n'est pas absolument précie et vrai  .
+
+
+### Difficultés rencontrées
+- comment je teste l'ia pour vérifier s'il est juste ou non.
+
+---
 
 ---
 
 ## Ressources et prompts utilisés
-- J'ai utilisé comme ressources chatgbt et gemini 
+- J'ai utilisé comme ressources chatgbt , gemini et claude aussi .
 
