@@ -23,6 +23,40 @@
 
 ---
 
+## Semaine 2 — [16 oct 2026] — L'art du prompt
+
+### 1. Ce que j’ai fait
+
+Durant cette deuxième semaine, j’ai travaillé sur le Workshop 2 intitulé « L’art du prompt : Concevoir, tester et améliorer un prompt ».
+
+J’ai réalisé les activités suivantes :
+- Rédaction d’un prompt initial sur le thème du Machine Learning.
+- Amélioration du prompt en précisant le rôle, le contexte, la tâche, les contraintes et le format de réponse.
+- Comparaison des résultats obtenus avec le prompt initial et le prompt amélioré.
+
+
+### 2. Ce que j’ai appris
+
+Cette semaine m'a permis de comprendre l'importance de la formulation des prompts pour obtenir des réponses plus précises et pertinentes.
+
+J'ai également appris à :
+- Structurer un prompt avec des instructions claires.
+- Utiliser les techniques Zero-shot, One-shot et Few-shot.
+- Évaluer et améliorer les réponses générées par l'intelligence artificielle.
+
+
+### 3. Difficultés rencontrées
+
+J'ai rencontré quelques difficultés concernant :
+- L'évaluation et la comparaison des réponses générées.
+- L'organisation des fichiers et des résultats dans GitHub.
+
+### 4. Bilan personnel
+
+Cette deuxième semaine m'a permis d'améliorer mes compétences dans l'utilisation des outils d'intelligence artificielle et dans l'analyse de documents scientifiques. J'ai compris qu'un bon prompt nécessite une structure claire et une vérification des résultats obtenus.
+
+
+
 ## Semaine 3 — [23 oct 2026]
 
 ### Ce que j'ai fait
