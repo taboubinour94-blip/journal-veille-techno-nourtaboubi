@@ -1,24 +1,40 @@
-Analyse de l’article scientifique et fiche de lecture
+Analyse de l’article scientifique 
 Document analysé : Scoring System Based on Electrocardiogram Features to Predict the Type of Heart Failure in Patients With Chronic Heart Failure.
 
-L’analyse ci-dessous est fondée sur le PDF fourni. Les valeurs numériques, les unités et les références aux pages sont conservées telles qu'elles apparaissent dans l'article.
-1. Extraction des résultats expérimentaux
-Remarque importante : l'article ne présente pas un tableau classique de comparaison entre plusieurs modèles d'intelligence artificielle. Il étudie un système de score fondé sur les caractéristiques de l'ECG, avec une régression logistique et une analyse ROC.
+<img width="634" height="610" alt="image" src="https://github.com/user-attachments/assets/9e11c035-faa0-4e6f-a7a8-526d5da0c775" /><br>
+Sources : tableaux 4, 5 et 8, pages 113 et 115 de la revue.
+Vérification des résultats avec les tableaux originaux:<br>
+Tableau 5 – Scores attribués aux caractéristiques ECG<br>
+<img width="269" height="226" alt="4" src="https://github.com/user-attachments/assets/a938b914-1b85-49ff-a57a-72ebf3a7e8af" /><br>
 
-Les tableaux 5, 6, 7 et 8 contiennent les résultats les plus pertinents pour l'évaluation de cette méthode.
-Tableau récapitulatif des résultats
-Méthode	Jeu de données|	Métrique d'évaluation	Résultat	Page
-Régression logistique |multivariée	110 patients atteints d'insuffisance cardiaque	OR – Wide QRS	12.657	4
-Régression logistique |multivariée	110 patients	OR – QT prolongé	7.401	4
-Régression logistique |multivariée	110 patients	OR – LAH	4.449	4
-Régression logistique |multivariée	110 patients	OR – ST-T changes	4.35	4
-Régression logistique |multivariée	110 patients	OR – RBBB	0.109	4
-Système de score ECG	|Patients atteints d'insuffisance cardiaque	Sensibilité	76%	1 et 6
-Système de score ECG	Patients atteints d'insuffisance cardiaque	Spécificité	96%	1 et 6
-Système de score ECG	Patients atteints d'insuffisance cardiaque	Valeur prédictive positive (PPV)	95%	1 et 6
-Système de score ECG	Patients atteints d'insuffisance cardiaque	Valeur prédictive négative (NPV)	80%	1 et 6
-Système de score ECG	Patients atteints d'insuffisance cardiaque	Accuracy	86%	1 et 6
-Système de score ECG	50 patients (validation)	Vrais positifs HFrEF	19	6
-Système de score ECG	50 patients (validation)	Faux positifs HFrEF	1	6
-Système de score ECG	50 patients (validation)	Faux négatifs HFrEF	6	6
-Système de score ECG	50 patients (validation)	Vrais négatifs HFpEF	24	6
+Paramètre ECG	Score     |  score
+LAH                     |	 1
+Wide QRS	              |  2             
+RBBB	                  |  -1
+ST-T changes	          |  1
+Prolong QT	            |  2
+
+Tableau 8 – Validation du système de score
+
+<img width="267" height="122" alt="image" src="https://github.com/user-attachments/assets/d4a44239-5553-48aa-a36d-bef041f001e8" /><br>
+Score prédit	|  HFrEF (EF ≤ 40%)	| HFpEF (EF > 40%)<br>
+HFrEF(+4 à +6)|      	19          | 	1<br>
+HFpEF(-1 à +3)|      	6	          |   24<br>
+
+Sensibilité = 19 / (19 + 6) = 76%.<br>
+Spécificité = 24 / (24 + 1) = 96%.<br>
+Accuracy = (19 + 24) / 50 = 86%.<br>
+
+## Résultats expérimentaux
+
+| Méthode | Jeu de données | Métrique | Résultat | Page |
+|---|---|---|---|---|
+| Régression logistique | 110 patients | OR – Wide QRS | 12.657 | 4 |
+| Régression logistique | 110 patients | OR – QT prolongé | 7.401 | 4 |
+| Système de score ECG | 50 patients | Sensibilité | 76% | 6 |
+| Système de score ECG | 50 patients | Spécificité | 96% | 6 |
+| Système de score ECG | 50 patients | Accuracy | 86% | 6 |
+
+
+
+
